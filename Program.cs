@@ -19,8 +19,7 @@ namespace AddressBook
                 
                 Console.WriteLine("Enter your choice");
                 command = Convert.ToInt32(Console.ReadLine());
-                if (command == 1 || command == 2 || command == 3 || command == 4)
-                {
+                
                     switch (command)
                     {
                         case 1:
@@ -50,13 +49,7 @@ namespace AddressBook
 
                     }
                 }
-                else
-                {
-                    Console.WriteLine("invalid choice");
-                }
-            }
-
-
+                
         }
     }
 }
